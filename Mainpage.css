@@ -1,0 +1,169 @@
+body{
+	background: #F0F7F4;
+	color: #99E1D9;
+	font-family: 'PT Serif', serif;
+}
+.container-fluid{
+	background-color: #70ABAF;
+	color:  #fff;
+	/*min-height: 450px;*/
+}
+.navbar{
+	z-index: 99;
+	background-color: #32292F;
+}
+.container-fluid .main-image{
+	width: 70%;
+    margin-left: 48px;
+}
+.navbar-dark .navbar-brand {
+    /*color: 	#FFFFFF;*/
+    font-size: 30px;
+}
+/*.bg-dark {
+    !important;
+}*/
+.navbar .navbar-nav .nav-link{
+	color: #FFFFFF;
+}
+.intro-text{
+	font-size: 10px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.secondary-bg{
+	background: #32292F;
+}
+.secondary-color{
+	color: #32292F;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.section-header .bg-color{
+	background: #32292F;
+    display: inline;
+    color: #99E1D9;
+    padding: 2px 4px 5px 4px;
+    border-radius: 5px;
+}
+.image{
+	width: 100%;
+	height: 200px;
+}
+.btn{
+    align-items: center;
+}
+    /* Shadow Effect*/
+
+.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+  
+      /* Zooming Effect*/
+.zoom {
+transition: transform .2s;
+/*margin: 0 auto;
+margin-left: 98px;*/
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.03); 
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03); 
+}
+
+.text{
+	text-align: left;
+	font-style: italic;
+	color: #32292F;
+	text-align: center;
+	margin-top:2rem;
+}
+.rotation {
+  width: 30px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.rotation:hover {
+  width: 30px;
+  height: 30px;
+  transform: rotate(360deg);
+  color:white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 38px;
+  max-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: 	 #476b6b;
+  color:white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #66a3ff;
+  width: 50%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: -100;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}*/
